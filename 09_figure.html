@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figure_test</title>
+</head>
+<body>
+    <h1>제주의 사계절</h1>
+    <!-- 이미지마다 설명글 -> 구역:figure -->
+    <figure>
+        <img src="images/spring.png" alt="제주의 봄 이미지">
+        <figcaption>가장 먼저 봄을 맞이하는 제주</figcaption>
+    </figure>
+
+    <figure>
+        <img src="images/summer.png" alt="제주의 여름 이미지">
+        <figcaption>뜨거운 태양을 닮은 해바라기</figcaption>
+    </figure>
+
+    <figure>
+        <img src="images/fall.png" alt="제주의 가을 이미지">
+        <figcaption>말들이 한가롭게 풀을 뜯는 제주도의 가을</figcaption>
+    </figure>
+
+    <figure>
+        <img src="images/winter.png" alt="제주의 겨울 이미지">
+        <figcaption>제주도의 겨울은 노란 귤과 함께</figcaption>
+    </figure>
+
+    <p></p>
+
+    <!-- 여러 이미지에 같은 설명글 붙이기 -->
+    <figure>
+        <img src="images/spring.png" alt="">
+        <img src="images/summer.png" alt="">
+        <img src="images/fall.png" alt="">
+        <img src="images/winter.png" alt="">
+        <figcaption>제주의 사계절</figcaption>
+    </figure>
+
+    <p></p>
+
+    <!-- srcset 실습 -->
+    <img src="images/1리락쿠마.jpg" alt="리락쿠마" srcset="images/1리락쿠마.jpg 1000w, images/spring.png 1200w">
+
+</body>
+</html>

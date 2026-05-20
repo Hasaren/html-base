@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Audio test</title>
+</head>
+<body>
+    <!-- pdf 파일 -->
+    <object data="./product.pdf" type="" width="900" height="800"></object>
+
+    <!-- embed 사양 낮은 오래된 컴도 쓸 수 있음 -->
+     <embed src="medias/spring.mp3" type="" width="900" height="800">
+
+    <!-- 오디오 태그 : 웹브라우저에 따라 플레이어가 달라진다.-->
+     <!-- loop 를 쓰면 무한반복 -->
+    <audio src="medias/spring.mp3" controls loop></audio>
+    <p></p>
+
+    <!-- 비디오 태그 -->
+     <!-- poster 속성: 썸네일 -->
+    <video src="medias/flight.mp4" controls width="900" height="800" poster="images/1리락쿠마.jpg"></video>
+
+    <p></p>
+    <!-- 소리 제거, 반복 재생, 자동 재생 -->
+    <video src="medias/flower.mp4" controls width="700" poster="images/1리락쿠마.jpg" muted autoplay loop></video>
+
+</body>
+</html>
